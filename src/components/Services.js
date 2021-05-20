@@ -5,10 +5,10 @@ import { faPython, faAndroid, faJoomla, faFreeCodeCamp  } from "@fortawesome/fre
 const Services = () => {
     return(
         <div className="services">
-            <h1 className="py-5">OUR SKILLS</h1>
+            <h1 className="py-5">MY SKILLS</h1>
             <div className="container">
                 <div className="row">
-                    <div className="col-md-3 col-sm-6">
+                    <div className="col-lg-3 col-md-6 col-sm-6">
                         <div className="box">
                             <div className="circle">
                                 <FontAwesomeIcon className="icon" icon={faJoomla} size="2x"/>
@@ -19,7 +19,7 @@ const Services = () => {
                             </p>
                         </div>
                     </div>
-                    <div className="col-md-3 col-sm-6">
+                    <div className="col-lg-3 col-md-6 col-sm-6">
                         <div className="box">
                             <div className="circle">
                                 <FontAwesomeIcon className="icon" icon={faPython} size="2x"/>
@@ -30,7 +30,7 @@ const Services = () => {
                             </p>
                         </div>
                     </div>
-                    <div className="col-md-3 col-sm-6">
+                    <div className="col-lg-3 col-md-6 col-sm-6">
                         <div className="box">
                             <div className="circle">
                                 <FontAwesomeIcon className="icon" icon={faAndroid} size="2x"/>
@@ -41,7 +41,7 @@ const Services = () => {
                             </p>
                         </div>
                     </div>
-                    <div className="col-md-3 col-sm-6">
+                    <div className="col-lg-3 col-md-6 col-sm-6">
                         <div className="box">
                             <div className="circle">
                                 <FontAwesomeIcon className="icon" icon={faFreeCodeCamp} size="2x"/>
