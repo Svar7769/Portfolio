@@ -10,6 +10,7 @@ import Services from "./components/Services"
 import Experience from "./components/Experience";
 import Portfolio from "./components/portfolio";
 import Contact from "./components/Contacts";
+import Footer from "./components/Footer";
 
 function App() {
   return (
@@ -42,6 +43,7 @@ function App() {
         <Experience />
         <Portfolio />
         <Contact />
+        <Footer />
     </div>
   );
 }

@@ -104,11 +104,11 @@ const Portfolio = () => {
 
 
     return(
-        <div className="portfolio-wrapper">
+        <div id="projects" className="portfolio-wrapper">
             <div className="container">
                 <h1 className="text-uppercase text-center py-5">MY PROJECTS</h1>
                 <div className="image-box-wrapper row justify-content-center">
-                    <div className="col justify-content-center">
+                    <div className="col-lg-3 col-md-4 col-sm-6 justify-content-center align-items-center">
                         <div className="portfolio-image-box " onClick={ openPopupboxProject1 }>
                             <img className="portfolio-image" src={ProjectImage} alt="Poject1"/>
                             <div className="overflow"/>
@@ -117,7 +117,7 @@ const Portfolio = () => {
                         </div>
                     </div>
                     {/*------*/}
-                    <div className="col justify-content-center">
+                    <div className="col-lg-3 col-md-4 col-sm-6 justify-content-center align-items-center">
                         <div className="portfolio-image-box " onClick={ openPopupboxProject2 }>
                             <img className="portfolio-image" src={ProjectImage} alt="Poject2"/>
                             <div className="overflow"/>
@@ -126,7 +126,7 @@ const Portfolio = () => {
                     </div>
                     <PopupboxContainer{...popupboxConfigProject2} />
                     {/*------*/}
-                    <div className="col justify-content-center">
+                    <div className="col-lg-3 col-md-4 col-sm-6 justify-content-center align-items-center">
                         <div className="portfolio-image-box " onClick={ openPopupboxProject3 }>
                             <img className="portfolio-image" src={ProjectImage} alt="Poject2"/>
                             <div className="overflow"/>
@@ -135,7 +135,7 @@ const Portfolio = () => {
                     </div>
                     <PopupboxContainer{...popupboxConfigProject3} />
                     {/*------*/}
-                    <div className="col justify-content-center">
+                    <div className="col-lg-3 col-md-4 col-sm-6 justify-content-center align-items-center">
                         <div className="portfolio-image-box " onClick={ openPopupboxProject4 }>
                             <img className="portfolio-image" src={ProjectImage} alt="Poject2"/>
                             <div className="overflow"/>

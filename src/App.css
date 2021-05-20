@@ -72,7 +72,7 @@ nav ul li {
   background: url(background.jpg) no-repeat;
   background-size: cover;
   background-position: center;
-  height: 90vh;
+  height: 100vh;
 }
 
 .main-info {
@@ -407,6 +407,10 @@ nav ul li {
   color: var(--primary-red);
 }
 
+.popupbox-wrapper{
+  margin-top: 7rem;
+}
+
 /*----------- POPUP MEDIA -----------*/
 @media (max-width: 768px) {
   .portfolio-image-popupbox {
@@ -524,4 +528,31 @@ input.form-control {
   .contact p {
     padding:0 1rem;
   }
+}
+
+/************************************** FOOTER **************************************/
+
+.footer {
+  background: var(--primary-black);
+  color: var(--primary-dark-grey);
+  padding: 3rem;
+}
+
+.footer a {
+  text-decoration: none;
+  color: var(--primary-dark-grey);
+}
+
+.footer a:hover{
+  text-decoration: none;
+  color: var(--primary-orange);
+  cursor: pointer;
+}
+
+.footer-nav {
+  margin: 0.5rem 0.5rem;
+}
+
+.footer p {
+  margin-bottom: 0;
 }
