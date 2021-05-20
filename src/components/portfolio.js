@@ -108,31 +108,39 @@ const Portfolio = () => {
             <div className="container">
                 <h1 className="text-uppercase text-center py-5">MY PROJECTS</h1>
                 <div className="image-box-wrapper row justify-content-center">
-                    <div className="portfolio-image-box col" onClick={ openPopupboxProject1 }>
-                        <img className="portfolio-image" src={ProjectImage} alt="Poject1"/>
-                        <div className="overflow"/>
-                        <FontAwesomeIcon className="portfolio-icon" icon={faSearchPlus}/>
-                        <PopupboxContainer{...popupboxConfigProject1} />
+                    <div className="col justify-content-center">
+                        <div className="portfolio-image-box " onClick={ openPopupboxProject1 }>
+                            <img className="portfolio-image" src={ProjectImage} alt="Poject1"/>
+                            <div className="overflow"/>
+                            <FontAwesomeIcon className="portfolio-icon" icon={faSearchPlus}/>
+                            <PopupboxContainer{...popupboxConfigProject1} />
+                        </div>
                     </div>
                     {/*------*/}
-                    <div className="portfolio-image-box col" onClick={ openPopupboxProject2 }>
-                        <img className="portfolio-image" src={ProjectImage} alt="Poject2"/>
-                        <div className="overflow"/>
-                        <FontAwesomeIcon className="portfolio-icon" icon={faSearchPlus}/>
+                    <div className="col justify-content-center">
+                        <div className="portfolio-image-box " onClick={ openPopupboxProject2 }>
+                            <img className="portfolio-image" src={ProjectImage} alt="Poject2"/>
+                            <div className="overflow"/>
+                            <FontAwesomeIcon className="portfolio-icon" icon={faSearchPlus}/>
+                        </div>
                     </div>
                     <PopupboxContainer{...popupboxConfigProject2} />
                     {/*------*/}
-                    <div className="portfolio-image-box col" onClick={ openPopupboxProject3 }>
-                        <img className="portfolio-image" src={ProjectImage} alt="Poject2"/>
-                        <div className="overflow"/>
-                        <FontAwesomeIcon className="portfolio-icon" icon={faSearchPlus}/>
+                    <div className="col justify-content-center">
+                        <div className="portfolio-image-box " onClick={ openPopupboxProject3 }>
+                            <img className="portfolio-image" src={ProjectImage} alt="Poject2"/>
+                            <div className="overflow"/>
+                            <FontAwesomeIcon className="portfolio-icon" icon={faSearchPlus}/>
+                        </div>
                     </div>
                     <PopupboxContainer{...popupboxConfigProject3} />
                     {/*------*/}
-                    <div className="portfolio-image-box col" onClick={ openPopupboxProject4 }>
-                        <img className="portfolio-image" src={ProjectImage} alt="Poject2"/>
-                        <div className="overflow"/>
-                        <FontAwesomeIcon className="portfolio-icon" icon={faSearchPlus}/>
+                    <div className="col justify-content-center">
+                        <div className="portfolio-image-box " onClick={ openPopupboxProject4 }>
+                            <img className="portfolio-image" src={ProjectImage} alt="Poject2"/>
+                            <div className="overflow"/>
+                            <FontAwesomeIcon className="portfolio-icon" icon={faSearchPlus}/>
+                        </div>
                     </div>
                     <PopupboxContainer{...popupboxConfigProject4} />
                 </div>
